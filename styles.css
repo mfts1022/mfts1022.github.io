@@ -4,67 +4,56 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.background-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.slideshow-container {
+  display: flex;
+  justify-content: center;
   overflow: hidden;
 }
 
-.background-image {
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.slideshow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  animation: slideImages 15s infinite;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
-@keyframes slideImages {
-  0% {
-    opacity: 0;
-  }
-  9% {
-    opacity: 1;
-  }
-  33% {
-    opacity: 1;
-  }
-  42% {
-    opacity: 0;
-  }
+.slideshow img.active {
+  opacity: 1;
 }
 
-.foreground-container {
-  position: relative;
-  z-index: 1;
-  max-width: 800px;
-  margin: 100px auto;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
+.foreground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.contact-details,
+.services {
+  margin-top: 20px;
   text-align: center;
 }
 
-.logo-container img {
-  max-width: 200px;
-  margin-bottom: 20px;
-}
-
-.contact-details h2,
-.services-container h2 {
-  margin-top: 0;
-}
-
-.services-container ul {
-  list-style: none;
-  padding: 0;
-}
-
-.services-container li {
-  margin-bottom: 5px;
+.links a {
+  display: inline-block;
+  margin: 10px;
+  color: #333;
+  text-decoration: none;
 }
