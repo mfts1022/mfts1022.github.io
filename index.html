@@ -16,6 +16,7 @@
       .background-image-1 {
         flex: 1;
         height: 900px;
+        background-color: black;
         background-size: cover;
         background-position: center;
         animation: crossfade1 20s linear infinite;
@@ -99,6 +100,7 @@
       .background-image-2 {
         flex: 1;
         height: 900px;
+        background-color: black;
         background-size: cover;
         background-position: center;
         animation: crossfade2 20s linear infinite;
@@ -182,6 +184,7 @@
       .background-image-3 {
         flex: 1;
         height: 900px;
+        background-color: black;
         background-size: cover;
         background-position: center;
         animation: crossfade3 20s linear infinite;
@@ -266,14 +269,15 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
         transform: translate(-50%, -50%);
         text-align: center;
         z-index: 2;
         background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
       }
 
       #logo {
@@ -306,7 +310,13 @@
       <div id="logo">
         <img src="logo.png" alt="Company Logo" />
       </div>
-      <div>Manila Finest Technical Services</div>
+      <div id="about-us">
+        <h2>About Us</h2>
+        We are an all-Filipino start-up company specializing in commercial and
+        residential improvements and maintenance. Your kitchen needs
+        remodelling? Maybe your office needs some rebranding? In any case, we
+        got your back.
+      </div>
       <div id="contact-details">
         <h2>Contact Us</h2>
         <p>+971 52 619 4480</p>
@@ -325,6 +335,7 @@
         <h2>Location</h2>
         <p>Al Saaha C-wing, Dubai, UAE</p>
       </div>
+      <a href="company_profile.pdf">Download Copmany Profile</a>
     </div>
   </body>
 </html>
