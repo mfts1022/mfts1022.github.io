@@ -39,15 +39,15 @@ body {
     opacity: 1;
     background-image: url(image1.jpg);
   }
-  19% {
+  18.5% {
     opacity: 0;
     background-image: url(image1.jpg);
   }
-  20% {
+  19% {
     opacity: 0;
     background-image: url(image2.jpg);
   }
-  21% {
+  19.5% {
     opacity: 1;
     background-image: url(image2.jpg);
   }
@@ -55,15 +55,15 @@ body {
     opacity: 1;
     background-image: url(image2.jpg);
   }
-  42% {
+  41.5% {
     opacity: 0;
     background-image: url(image2.jpg);
   }
-  43% {
+  42% {
     opacity: 0;
     background-image: url(image3.jpg);
   }
-  44% {
+  42.5% {
     opacity: 1;
     background-image: url(image3.jpg);
   }
@@ -71,15 +71,15 @@ body {
     opacity: 1;
     background-image: url(image3.jpg);
   }
-  65% {
+  64.5% {
     opacity: 0;
     background-image: url(image3.jpg);
   }
-  66% {
+  65% {
     opacity: 0;
     background-image: url(image4.jpg);
   }
-  67% {
+  65.5% {
     opacity: 1;
     background-image: url(image4.jpg);
   }
@@ -87,15 +87,15 @@ body {
     opacity: 1;
     background-image: url(image4.jpg);
   }
-  88% {
+  87.5% {
     opacity: 0;
     background-image: url(image4.jpg);
   }
-  89% {
+  88% {
     opacity: 0;
     background-image: url(image1.jpg);
   }
-  90% {
+  88.5% {
     opacity: 1;
     background-image: url(image1.jpg);
   }
@@ -120,67 +120,67 @@ body {
     opacity: 1;
     background-image: url(image5.jpg);
   }
+  18.5% {
+    opacity: 1;
+    background-image: url(image5.jpg);
+  }
+  19% {
+    opacity: 0;
+    background-image: url(image5.jpg);
+  }
+  19.5% {
+    opacity: 0;
+    background-image: url(image6.jpg);
+  }
   20% {
     opacity: 1;
-    background-image: url(image5.jpg);
-  }
-  21% {
-    opacity: 0;
-    background-image: url(image5.jpg);
-  }
-  22% {
-    opacity: 0;
     background-image: url(image6.jpg);
   }
-  23% {
+  41.5% {
     opacity: 1;
     background-image: url(image6.jpg);
+  }
+  42% {
+    opacity: 0;
+    background-image: url(image6.jpg);
+  }
+  42.5% {
+    opacity: 0;
+    background-image: url(image7.jpg);
   }
   43% {
     opacity: 1;
-    background-image: url(image6.jpg);
-  }
-  44% {
-    opacity: 0;
-    background-image: url(image6.jpg);
-  }
-  45% {
-    opacity: 0;
     background-image: url(image7.jpg);
   }
-  46% {
+  64.5% {
     opacity: 1;
     background-image: url(image7.jpg);
+  }
+  65% {
+    opacity: 0;
+    background-image: url(image7.jpg);
+  }
+  65.5% {
+    opacity: 0;
+    background-image: url(image8.jpg);
   }
   66% {
     opacity: 1;
-    background-image: url(image7.jpg);
-  }
-  67% {
-    opacity: 0;
-    background-image: url(image7.jpg);
-  }
-  68% {
-    opacity: 0;
     background-image: url(image8.jpg);
   }
-  69% {
+  87.5% {
     opacity: 1;
     background-image: url(image8.jpg);
   }
-  89% {
-    opacity: 1;
-    background-image: url(image8.jpg);
-  }
-  90% {
+  88% {
     opacity: 0;
     background-image: url(image8.jpg);
   }
-  91% {
+  88.5% {
     opacity: 0;
     background-image: url(image5.jpg);
   }
-  92% {
+  89% {
     opacity: 1;
     background-image: url(image5.jpg);
   }
@@ -205,67 +205,67 @@ body {
     opacity: 1;
     background-image: url(image9.jpg);
   }
-  22% {
+  19% {
     opacity: 1;
     background-image: url(image9.jpg);
   }
-  23% {
+  19.5% {
     opacity: 0;
     background-image: url(image9.jpg);
   }
-  24% {
+  20% {
     opacity: 0;
     background-image: url(image10.jpg);
   }
-  25% {
+  20.5% {
     opacity: 1;
     background-image: url(image10.jpg);
   }
-  45% {
+  42% {
     opacity: 1;
     background-image: url(image10.jpg);
   }
-  46% {
+  42.5% {
     opacity: 0;
     background-image: url(image10.jpg);
   }
-  47% {
+  43% {
     opacity: 0;
     background-image: url(image11.jpg);
   }
-  48% {
+  43.5% {
     opacity: 1;
     background-image: url(image11.jpg);
   }
-  68% {
+  65% {
     opacity: 1;
     background-image: url(image11.jpg);
   }
-  69% {
+  65.5% {
     opacity: 0;
     background-image: url(image11.jpg);
   }
-  70% {
+  66% {
     opacity: 0;
     background-image: url(image12.jpg);
   }
-  71% {
+  66.5% {
     opacity: 1;
     background-image: url(image12.jpg);
   }
-  91% {
+  88% {
     opacity: 1;
     background-image: url(image12.jpg);
   }
-  92% {
+  88.5% {
     opacity: 0;
     background-image: url(image12.jpg);
   }
-  93% {
+  89% {
     opacity: 0;
     background-image: url(image9.jpg);
   }
-  94% {
+  89.5% {
     opacity: 1;
     background-image: url(image9.jpg);
   }
