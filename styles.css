@@ -313,7 +313,7 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #ffed62;
+  background-color: #fae64c;
   color: black;
 }
 
@@ -370,6 +370,13 @@ body {
   z-index: 0;
   background-color: #f3f2eb;
 }
+
+.our-services-title {
+  color: black;
+  margin-top: 80px;
+  font-size: 48px;
+}
+
 .container1 {
   top: 0px;
   left: 0px;
@@ -384,9 +391,9 @@ body {
   justify-content: center;
 }
 .container-1-1 {
-  top: 100px;
+  top: 110px;
   flex: 0 0 auto;
-  left: 100px;
+  left: 77px;
   width: 250px;
   height: 200px;
   display: flex;
@@ -396,6 +403,77 @@ body {
   border-radius: 20px;
   background-color: white;
   background-image: url(remodelling.png);
+}
+.container-1-2 {
+  top: 110px;
+  flex: 0 0 auto;
+  left: 377px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  box-shadow: 10px 10px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url(painting.png);
+}
+.container-1-3 {
+  top: 110px;
+  flex: 0 0 auto;
+  left: 677px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  z-index: 100;
+  position: absolute;
+  box-shadow: 10px 10px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url(office-maintenance.png);
+}
+.container-2-1 {
+  top: 360px;
+  flex: 0 0 auto;
+  left: 77px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  box-shadow: 10px 10px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url(flooring.png);
+}
+.container-2-2 {
+  top: 360px;
+  flex: 0 0 auto;
+  left: 377px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  box-shadow: 10px 10px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url(blinds.png);
+}
+.container-2-3 {
+  top: 360px;
+  flex: 0 0 auto;
+  left: 677px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  box-shadow: 10px 10px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: white;
+  background-image: url(ac.png);
 }
 .text-1-1 {
   top: 10px;
@@ -411,20 +489,6 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.container-1-2 {
-  top: 100px;
-  flex: 0 0 auto;
-  left: 400px;
-  width: 250px;
-  height: 200px;
-  display: flex;
-  position: absolute;
-  box-shadow: 10px 10px 10px 0px #d4d4d4;
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: white;
-  background-image: url(painting.png);
-}
 .text-1-2 {
   top: 10px;
   left: 10px;
@@ -438,21 +502,6 @@ body {
   margin-bottom: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.container-1-3 {
-  top: 100px;
-  flex: 0 0 auto;
-  left: 700px;
-  width: 250px;
-  height: 200px;
-  display: flex;
-  z-index: 100;
-  position: absolute;
-  box-shadow: 10px 10px 10px 0px #d4d4d4;
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: white;
-  background-image: url(office-maintenance.png);
 }
 .text-1-3 {
   top: 10px;
@@ -468,20 +517,6 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.container-2-1 {
-  top: 350px;
-  flex: 0 0 auto;
-  left: 100px;
-  width: 250px;
-  height: 200px;
-  display: flex;
-  position: absolute;
-  box-shadow: 10px 10px 10px 0px #d4d4d4;
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: white;
-  background-image: url(flooring.png);
-}
 .text-2-1 {
   top: 10px;
   left: 10px;
@@ -495,20 +530,6 @@ body {
   margin-bottom: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.container-2-2 {
-  top: 350px;
-  flex: 0 0 auto;
-  left: 400px;
-  width: 250px;
-  height: 200px;
-  display: flex;
-  position: absolute;
-  box-shadow: 10px 10px 10px 0px #d4d4d4;
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: white;
-  background-image: url(blinds.png);
 }
 .text-2-2 {
   top: 10px;
@@ -525,20 +546,6 @@ body {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-.container-2-3 {
-  top: 350px;
-  flex: 0 0 auto;
-  left: 700px;
-  width: 250px;
-  height: 200px;
-  display: flex;
-  position: absolute;
-  box-shadow: 10px 10px 10px 0px #d4d4d4;
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: white;
-  background-image: url(ac.png);
 }
 .text-2-3 {
   top: 10px;
