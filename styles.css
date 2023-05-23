@@ -753,7 +753,7 @@ body {
 }
 .contact-us-title {
   color: black;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 48px;
   width: 1000px;
   position: absolute;
@@ -795,5 +795,23 @@ body {
   margin: auto;
   position: absolute;
   font-size: 18px;
+  text-align: center;
+}
+.contacts-text-5 {
+  top: 248px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+}
+.contacts-text-6 {
+  top: 262px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 12px;
   text-align: center;
 }
